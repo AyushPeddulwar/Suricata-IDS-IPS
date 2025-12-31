@@ -7,3 +7,8 @@ Suricata is an open-source network security engine that works as both IDS and IP
 - `report/media` - All diagram, icons and screenshots
 
 ## 📝 Overview
+
+
+## 📝 Full Report
+
+Read the documentation in [report/](./report/)
