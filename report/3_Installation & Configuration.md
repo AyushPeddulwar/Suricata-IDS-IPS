@@ -1,7 +1,8 @@
 # Installing Suricata IDS on Ubuntu
 
-This section covers the full setup of the Suricata Network IDS on Ubuntu to monitor traffic User Endpoint VM (Linux/Windows).
-
+This section covers the full setup of the Suricata Network IDS on Ubuntu to monitor traffic User Endpoint VM (Linux/Windows). 
+<br><br>
+### Install Suricata
 ```
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:oisf/suricata-stable
