@@ -54,3 +54,29 @@ Example: sudo tail -f /var/log/suricata/fast.log
 ```
 curl http://testmynids.org/uid/index.html
 ```
+
+## Custom Rules
+Open the Local Rules File
+``` 
+sudo vim /etc/suricata/rules/local.rules
+```
+Add a Simple Rule
+```
+alert icmp any any -> $HOME_NET any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
+```
+Test the Configuration
+```
+sudo suricata -T -c /etc/suricata/suricata.yaml
+```
+Trigger the Rule (Test)
+```
+ping <ip>
+```
+View the Alert
+```
+sudo tail -f /var/log/suricata/fast.log
+```
+
+
+
+
