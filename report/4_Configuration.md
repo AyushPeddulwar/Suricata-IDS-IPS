@@ -51,7 +51,7 @@ sudo systemctl status suricata
 sudo iptables -L -v -n | grep NFQUEUE
 ```
 
-### IPS vs IDS Rule Actions
+### IPS IDS Rule Actions
 | Action | Description |
 |------|-------------|
 | alert | Generate alert only (IDS mode) |
